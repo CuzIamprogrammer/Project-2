@@ -13,10 +13,7 @@ app.get("/json", function(req, res){
         response.message = response.message.toUpperCase(); }
         else{
             response.message = response.message
-        }
-     
-     res.json(response);
-    })
+        }  })
 
 
 
